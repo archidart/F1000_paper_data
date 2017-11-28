@@ -1,0 +1,3148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rsml xmlns:po='http://www.plantontology.org/xml-dtd/po.dtd'>
+  <metadata>
+    <version>1</version>
+    <unit>inch</unit>
+    <resolution>30</resolution>
+    <last-modified>today</last-modified>
+    <software>archisimple</software>
+    <parameters>
+      <parameter name='P_duree'>30</parameter>
+      <parameter name='P_simultEmiss'>0</parameter>
+      <parameter name='P_vitEmissionPrim'>0.980000</parameter>
+      <parameter name='P_nbSeminales'>0</parameter>
+      <parameter name='P_nbMaxPrim'>1</parameter>
+      <parameter name='P_ageEmissionTard'>150.000000</parameter>
+      <parameter name='P_dBaseMaxTard'>80.000000</parameter>
+      <parameter name='P_vitEmissionTard'>2.000000</parameter>
+      <parameter name='P_propDiamTard'>0.700000</parameter>
+      <parameter name='P_nbMaxTard'>40</parameter>
+      <parameter name='P_diamMin'>0.020000</parameter>
+      <parameter name='P_diamMax'>0.396000</parameter>
+      <parameter name='P_penteVitDiam'>27.511000</parameter>
+      <parameter name='P_tendanceDirTropisme'>1</parameter>
+      <parameter name='P_intensiteTropisme'>0.065590</parameter>
+      <parameter name='P_ageMaturitePointe'>0.194000</parameter>
+      <parameter name='P_distRamif'>2.852000</parameter>
+      <parameter name='P_propDiamRamif'>0.510000</parameter>
+      <parameter name='P_coeffVarDiamRamif'>0.500000</parameter>
+      <parameter name='P_probaMaxArret'>0.500000</parameter>
+      <parameter name='P_probaEffetDiam'>2.000000</parameter>
+      <parameter name='P_TMD'>0.100000</parameter>
+      <parameter name='P_penteDureeVieDiamTMD'>2000000000.000000</parameter>
+      <parameter name='P_coeffCroissRad'>0.344000</parameter>
+      <parameter name='P_angLat'>1.220000</parameter>
+      <parameter name='P_tertiary'>1</parameter>
+      <parameter name='P_type'>1</parameter>
+      <parameter name='P_maxLatAge'>15.369000</parameter>
+    </parameters>
+    <user>globet</user>
+    <file-key>myimage</file-key>
+    <property-definitions>
+      <property-definition>
+          <label>diameter</label>
+            <type>float</type>
+            <unit>cm</unit>
+      </property-definition>
+      <property-definition>
+          <label>age</label>
+            <type>int</type>
+            <unit>day</unit>
+      </property-definition>
+    </property-definitions>
+  </metadata>
+  <scene>
+    <plant>  
+      <root ID='1' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='590.551208' y='236.220474' z='590.551208'/>
+             <point x='590.655334' y='295.230103' z='588.236267'/>
+             <point x='590.747559' y='354.249603' z='586.187317'/>
+             <point x='590.829163' y='413.276794' z='584.373718'/>
+             <point x='590.901367' y='472.310059' z='582.768555'/>
+             <point x='590.965271' y='531.348083' z='581.347778'/>
+             <point x='591.021851' y='590.389771' z='580.090271'/>
+             <point x='591.071960' y='649.434387' z='578.977356'/>
+             <point x='591.116333' y='708.481262' z='577.992310'/>
+             <point x='591.155579' y='767.529907' z='577.120422'/>
+             <point x='591.190308' y='826.580017' z='576.348755'/>
+             <point x='591.221008' y='885.631165' z='575.665771'/>
+             <point x='591.248230' y='944.683228' z='575.061340'/>
+             <point x='591.272278' y='1003.735901' z='574.526367'/>
+             <point x='591.293640' y='1062.789062' z='574.052856'/>
+             <point x='591.312500' y='1121.842651' z='573.633789'/>
+             <point x='591.329163' y='1180.896606' z='573.262878'/>
+             <point x='591.343933' y='1239.950806' z='572.934631'/>
+             <point x='591.356995' y='1299.005249' z='572.644043'/>
+             <point x='591.368591' y='1358.059814' z='572.386963'/>
+             <point x='591.378784' y='1417.114502' z='572.159363'/>
+             <point x='591.387878' y='1476.169312' z='571.957886'/>
+             <point x='591.395874' y='1535.223999' z='571.779602'/>
+             <point x='591.403015' y='1594.278931' z='571.621826'/>
+             <point x='591.409241' y='1653.333862' z='571.482178'/>
+             <point x='591.414795' y='1712.388794' z='571.358582'/>
+             <point x='591.419739' y='1771.443726' z='571.249207'/>
+             <point x='591.424072' y='1830.498901' z='571.152344'/>
+             <point x='591.427979' y='1889.553955' z='571.066650'/>
+             <point x='591.431396' y='1948.609131' z='570.990845'/>
+             <point x='591.434387' y='2007.664307' z='570.923706'/>
+             <point x='591.437073' y='2066.719482' z='570.864258'/>
+             <point x='591.439453' y='2125.774414' z='570.811707'/>
+             <point x='591.441528' y='2184.829590' z='570.765137'/>
+             <point x='591.443359' y='2243.884766' z='570.723999'/>
+             <point x='591.445007' y='2302.939941' z='570.687561'/>
+             <point x='591.446411' y='2361.994873' z='570.655273'/>
+             <point x='591.447754' y='2421.050049' z='570.626709'/>
+             <point x='591.448853' y='2480.105225' z='570.601440'/>
+             <point x='591.449890' y='2539.160400' z='570.579102'/>
+             <point x='591.450745' y='2598.215332' z='570.559326'/>
+             <point x='591.451538' y='2657.270508' z='570.541748'/>
+             <point x='591.452209' y='2716.325684' z='570.526306'/>
+             <point x='591.452820' y='2775.380859' z='570.512512'/>
+             <point x='591.453369' y='2834.435791' z='570.500366'/>
+             <point x='591.453857' y='2893.490967' z='570.489624'/>
+             <point x='591.454346' y='2952.546143' z='570.480103'/>
+             <point x='591.454712' y='3011.601318' z='570.471680'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>10.664360</sample>
+             <sample>10.613391</sample>
+             <sample>10.613391</sample>
+             <sample>10.613391</sample>
+             <sample>10.613391</sample>
+             <sample>10.611757</sample>
+             <sample>10.610284</sample>
+             <sample>10.587795</sample>
+             <sample>10.585531</sample>
+             <sample>10.585531</sample>
+             <sample>10.565001</sample>
+             <sample>10.557568</sample>
+             <sample>10.550580</sample>
+             <sample>10.550580</sample>
+             <sample>10.523108</sample>
+             <sample>10.513803</sample>
+             <sample>10.508122</sample>
+             <sample>10.470233</sample>
+             <sample>10.463808</sample>
+             <sample>10.459265</sample>
+             <sample>10.455911</sample>
+             <sample>10.450139</sample>
+             <sample>10.409611</sample>
+             <sample>10.240012</sample>
+             <sample>10.060183</sample>
+             <sample>9.904902</sample>
+             <sample>9.769542</sample>
+             <sample>9.623322</sample>
+             <sample>9.514096</sample>
+             <sample>9.432681</sample>
+             <sample>9.044362</sample>
+             <sample>8.863214</sample>
+             <sample>8.770294</sample>
+             <sample>8.651094</sample>
+             <sample>8.453479</sample>
+             <sample>8.022065</sample>
+             <sample>7.679853</sample>
+             <sample>7.392222</sample>
+             <sample>6.957731</sample>
+             <sample>6.757524</sample>
+             <sample>6.388640</sample>
+             <sample>6.353875</sample>
+             <sample>6.080929</sample>
+             <sample>5.752621</sample>
+             <sample>5.445346</sample>
+             <sample>5.289399</sample>
+             <sample>5.008725</sample>
+             <sample>5.008725</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>3</sample>
+             <sample>3</sample>
+             <sample>4</sample>
+             <sample>4</sample>
+             <sample>5</sample>
+             <sample>5</sample>
+             <sample>6</sample>
+             <sample>6</sample>
+             <sample>7</sample>
+             <sample>7</sample>
+             <sample>8</sample>
+             <sample>8</sample>
+             <sample>9</sample>
+             <sample>9</sample>
+             <sample>10</sample>
+             <sample>10</sample>
+             <sample>11</sample>
+             <sample>11</sample>
+             <sample>12</sample>
+             <sample>12</sample>
+             <sample>13</sample>
+             <sample>13</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+             <sample>15</sample>
+             <sample>15</sample>
+             <sample>16</sample>
+             <sample>16</sample>
+             <sample>17</sample>
+             <sample>17</sample>
+             <sample>17</sample>
+             <sample>18</sample>
+             <sample>18</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      <root ID='2' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='590.610596' y='269.879578' z='589.230774'/>
+             <point x='558.232422' y='295.133026' z='631.526245'/>
+             <point x='526.741516' y='323.481537' z='672.662476'/>
+             <point x='496.266571' y='354.690613' z='712.471741'/>
+             <point x='466.862671' y='388.566620' z='750.881897'/>
+             <point x='438.570709' y='424.914978' z='787.839478'/>
+             <point x='411.418030' y='463.543488' z='823.308899'/>
+             <point x='385.419769' y='504.264709' z='857.270264'/>
+             <point x='360.580048' y='546.898376' z='889.718201'/>
+             <point x='336.893494' y='591.272644' z='920.659790'/>
+             <point x='314.346466' y='637.225403' z='950.112854'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.596902</sample>
+             <sample>2.596902</sample>
+             <sample>2.580406</sample>
+             <sample>2.580406</sample>
+             <sample>2.572049</sample>
+             <sample>2.572049</sample>
+             <sample>2.546499</sample>
+             <sample>2.523351</sample>
+             <sample>2.523351</sample>
+             <sample>2.475832</sample>
+             <sample>2.475832</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>4</sample>
+             <sample>6</sample>
+             <sample>7</sample>
+             <sample>8</sample>
+             <sample>9</sample>
+             <sample>10</sample>
+             <sample>11</sample>
+             <sample>12</sample>
+             <sample>13</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      <root ID='2' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='535.779541' y='315.345398' z='660.856201'/>
+             <point x='509.395142' y='313.787445' z='667.305969'/>
+             <point x='452.029327' y='313.649933' z='681.329285'/>
+             <point x='394.692139' y='315.520386' z='695.345581'/>
+             <point x='337.449677' y='319.393372' z='709.338745'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.259503</sample>
+             <sample>1.259503</sample>
+             <sample>1.259503</sample>
+             <sample>1.259503</sample>
+             <sample>1.259503</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>7</sample>
+             <sample>10</sample>
+             <sample>12</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='2' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='483.793579' y='369.060669' z='728.765198'/>
+             <point x='458.904755' y='368.411407' z='729.384033'/>
+             <point x='399.868835' y='368.743713' z='730.851868'/>
+             <point x='340.873016' y='370.946289' z='732.318726'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.160203</sample>
+             <sample>1.160203</sample>
+             <sample>1.160203</sample>
+             <sample>1.160203</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>9</sample>
+             <sample>12</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='2' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='419.406464' y='452.178833' z='812.873657'/>
+             <point x='405.461395' y='450.773682' z='835.161621'/>
+             <point x='374.137878' y='450.654022' z='885.224854'/>
+             <point x='342.829407' y='452.490082' z='935.263977'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.246835</sample>
+             <sample>1.246835</sample>
+             <sample>1.229545</sample>
+             <sample>1.229545</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>11</sample>
+             <sample>14</sample>
+             <sample>16</sample>
+             <sample>16</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='2' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='404.237396' y='474.790497' z='832.688904'/>
+             <point x='350.945831' y='489.183533' z='811.704224'/>
+             <point x='298.042999' y='505.147339' z='790.872620'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.085017</sample>
+             <sample>1.085017</sample>
+             <sample>1.085017</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>14</sample>
+             <sample>17</sample>
+             <sample>17</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='2' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='347.367798' y='571.650146' z='906.977234'/>
+             <point x='313.811584' y='606.085938' z='872.689331'/>
+             <point x='280.908997' y='641.787842' z='839.069275'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.299513</sample>
+             <sample>1.299513</sample>
+             <sample>1.299513</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>16</sample>
+             <sample>18</sample>
+             <sample>18</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='2' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='334.003052' y='597.163574' z='924.435547'/>
+             <point x='276.056458' y='590.726379' z='933.830444'/>
+             <point x='217.941376' y='586.104004' z='943.252625'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.172450</sample>
+             <sample>1.172450</sample>
+             <sample>1.172450</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='2' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='321.142212' y='623.375061' z='941.235535'/>
+             <point x='285.440826' y='606.023987' z='984.960388'/>
+             <point x='249.425873' y='590.376892' z='1029.069214'/>
+             <point x='213.127731' y='576.461304' z='1073.524902'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.264095</sample>
+             <sample>1.264095</sample>
+             <sample>1.214501</sample>
+             <sample>1.214501</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>22</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='12' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='590.937378' y='505.560272' z='581.968384'/>
+             <point x='605.265076' y='527.237061' z='628.017700'/>
+             <point x='620.861755' y='554.282715' z='678.145386'/>
+             <point x='636.021484' y='584.010315' z='726.868652'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.166186</sample>
+             <sample>2.166186</sample>
+             <sample>2.166186</sample>
+             <sample>2.166186</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>6</sample>
+             <sample>8</sample>
+             <sample>9</sample>
+             <sample>9</sample>
+          </function>  
+        </functions>  
+      <root ID='12' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='626.717346' y='565.765259' z='696.965210'/>
+             <point x='653.304443' y='595.665771' z='687.785034'/>
+             <point x='690.800781' y='639.414062' z='674.838135'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.999818</sample>
+             <sample>0.999818</sample>
+             <sample>0.999818</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>11</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='13' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='590.972839' y='539.236084' z='581.179810'/>
+             <point x='634.189270' y='560.463867' z='553.679993'/>
+             <point x='679.069519' y='586.109192' z='525.121460'/>
+             <point x='722.697937' y='614.628357' z='497.359528'/>
+             <point x='764.987915' y='645.851746' z='470.449188'/>
+             <point x='805.870789' y='679.605530' z='444.434296'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.258643</sample>
+             <sample>2.258643</sample>
+             <sample>2.251716</sample>
+             <sample>2.251716</sample>
+             <sample>2.251716</sample>
+             <sample>2.251716</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>6</sample>
+             <sample>8</sample>
+             <sample>9</sample>
+             <sample>10</sample>
+             <sample>11</sample>
+             <sample>11</sample>
+          </function>  
+        </functions>  
+      <root ID='13' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='668.849182' y='580.269104' z='531.624939'/>
+             <point x='657.593506' y='588.903137' z='489.005341'/>
+             <point x='642.884094' y='601.902100' z='433.308228'/>
+             <point x='628.274597' y='616.527039' z='377.989349'/>
+             <point x='613.775818' y='632.754089' z='323.089661'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.067331</sample>
+             <sample>1.067331</sample>
+             <sample>1.052593</sample>
+             <sample>1.052593</sample>
+             <sample>1.052593</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>10</sample>
+             <sample>13</sample>
+             <sample>16</sample>
+             <sample>18</sample>
+             <sample>18</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='19' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.035645' y='606.591614' z='579.784912'/>
+             <point x='601.090454' y='624.499329' z='535.450562'/>
+             <point x='612.984009' y='648.910889' z='483.008942'/>
+             <point x='624.594727' y='675.963074' z='431.814423'/>
+             <point x='635.902466' y='705.522766' z='381.955933'/>
+             <point x='646.890381' y='737.452759' z='333.507507'/>
+             <point x='657.544983' y='771.613647' z='286.528625'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.127431</sample>
+             <sample>2.127431</sample>
+             <sample>2.120537</sample>
+             <sample>2.120537</sample>
+             <sample>2.120537</sample>
+             <sample>2.089171</sample>
+             <sample>2.089171</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>7</sample>
+             <sample>9</sample>
+             <sample>10</sample>
+             <sample>11</sample>
+             <sample>12</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      <root ID='19' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='637.720215' y='710.805054' z='373.940948'/>
+             <point x='679.632080' y='751.015747' z='384.618408'/>
+             <point x='720.777405' y='792.060730' z='395.100616'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.040691</sample>
+             <sample>1.040691</sample>
+             <sample>1.040691</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>15</sample>
+             <sample>18</sample>
+             <sample>18</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='19' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='656.230591' y='767.399353' z='292.324249'/>
+             <point x='701.415649' y='746.515076' z='260.549011'/>
+             <point x='746.993347' y='726.947571' z='228.497620'/>
+             <point x='792.940918' y='708.718689' z='196.186142'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.065847</sample>
+             <sample>1.065847</sample>
+             <sample>0.984082</sample>
+             <sample>0.984082</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='22' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.115662' y='707.630981' z='578.006470'/>
+             <point x='632.635010' y='728.886169' z='604.034851'/>
+             <point x='677.394531' y='755.282166' z='632.094482'/>
+             <point x='720.915833' y='784.420166' z='659.377869'/>
+             <point x='763.121216' y='816.140198' z='685.836365'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.188759</sample>
+             <sample>2.188759</sample>
+             <sample>2.188759</sample>
+             <sample>2.177791</sample>
+             <sample>2.177791</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>7</sample>
+             <sample>9</sample>
+             <sample>10</sample>
+             <sample>11</sample>
+             <sample>11</sample>
+          </function>  
+        </functions>  
+      <root ID='22' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='693.807007' y='766.270508' z='642.383423'/>
+             <point x='687.426697' y='767.143555' z='683.219666'/>
+             <point x='678.321045' y='770.007263' z='741.498291'/>
+             <point x='669.230957' y='774.482727' z='799.677734'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.011530</sample>
+             <sample>1.011530</sample>
+             <sample>0.987573</sample>
+             <sample>0.987573</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>12</sample>
+             <sample>15</sample>
+             <sample>18</sample>
+             <sample>18</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='35' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.159973' y='774.993896' z='577.022888'/>
+             <point x='624.203552' y='799.268433' z='619.524353'/>
+             <point x='656.277466' y='826.779419' z='660.778687'/>
+             <point x='687.299988' y='857.323303' z='700.680786'/>
+             <point x='717.206848' y='890.690613' z='739.147827'/>
+             <point x='745.950317' y='926.669678' z='776.118469'/>
+             <point x='773.498230' y='965.051086' z='811.551392'/>
+             <point x='799.832520' y='1005.630676' z='845.423340'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.566946</sample>
+             <sample>2.566946</sample>
+             <sample>2.566946</sample>
+             <sample>2.545963</sample>
+             <sample>2.545963</sample>
+             <sample>2.545963</sample>
+             <sample>2.545963</sample>
+             <sample>2.545963</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>8</sample>
+             <sample>9</sample>
+             <sample>10</sample>
+             <sample>11</sample>
+             <sample>12</sample>
+             <sample>13</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      <root ID='35' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='682.708679' y='852.802795' z='694.775269'/>
+             <point x='690.536926' y='836.676086' z='715.395142'/>
+             <point x='707.798096' y='803.173828' z='760.861145'/>
+             <point x='725.392822' y='771.078857' z='807.206055'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.272262</sample>
+             <sample>1.272262</sample>
+             <sample>1.272262</sample>
+             <sample>1.272262</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>11</sample>
+             <sample>14</sample>
+             <sample>16</sample>
+             <sample>16</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='35' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='780.724304' y='976.186157' z='820.845886'/>
+             <point x='741.037598' y='1012.468567' z='845.260254'/>
+             <point x='702.175842' y='1049.961670' z='869.167175'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.282097</sample>
+             <sample>1.282097</sample>
+             <sample>1.282097</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='35' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='795.745483' y='999.332703' z='840.166504'/>
+             <point x='814.079712' y='1045.171875' z='807.760742'/>
+             <point x='831.958191' y='1091.747681' z='776.160645'/>
+             <point x='849.385437' y='1139.023315' z='745.357910'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.247861</sample>
+             <sample>1.231807</sample>
+             <sample>1.231807</sample>
+             <sample>1.231807</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>19</sample>
+             <sample>21</sample>
+             <sample>21</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='57' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.198486' y='842.358521' z='576.166260'/>
+             <point x='615.812744' y='860.525269' z='538.427063'/>
+             <point x='645.087036' y='885.343323' z='493.542908'/>
+             <point x='673.658386' y='912.769531' z='449.736633'/>
+             <point x='701.478638' y='942.671387' z='407.081970'/>
+             <point x='728.507874' y='974.912659' z='365.640106'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.009930</sample>
+             <sample>2.009930</sample>
+             <sample>2.009930</sample>
+             <sample>2.009930</sample>
+             <sample>2.009930</sample>
+             <sample>2.009930</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>9</sample>
+             <sample>11</sample>
+             <sample>12</sample>
+             <sample>13</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='58' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.216003' y='876.041260' z='575.776733'/>
+             <point x='603.472351' y='898.071838' z='524.616516'/>
+             <point x='615.835571' y='923.983826' z='473.010040'/>
+             <point x='627.841614' y='952.824524' z='422.894440'/>
+             <point x='639.466003' y='984.414917' z='374.371948'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.336422</sample>
+             <sample>2.336422</sample>
+             <sample>2.328555</sample>
+             <sample>2.328555</sample>
+             <sample>2.328555</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>9</sample>
+             <sample>11</sample>
+             <sample>12</sample>
+             <sample>13</sample>
+             <sample>13</sample>
+          </function>  
+        </functions>  
+      <root ID='58' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='605.636108' y='902.606873' z='515.584534'/>
+             <point x='649.194580' y='906.244568' z='510.073639'/>
+             <point x='707.420288' y='912.802673' z='502.707062'/>
+             <point x='765.436829' y='921.031433' z='495.366943'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.054467</sample>
+             <sample>1.036920</sample>
+             <sample>1.036920</sample>
+             <sample>1.036920</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>13</sample>
+             <sample>16</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='58' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='633.149536' y='967.249268' z='400.738251'/>
+             <point x='611.480103' y='950.163391' z='364.536011'/>
+             <point x='583.063354' y='929.520203' z='317.061279'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.104567</sample>
+             <sample>1.104567</sample>
+             <sample>1.104567</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>15</sample>
+             <sample>18</sample>
+             <sample>18</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='60' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.247681' y='943.407654' z='575.074402'/>
+             <point x='553.692139' y='964.408875' z='606.060608'/>
+             <point x='512.896606' y='990.682129' z='639.719971'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.197429</sample>
+             <sample>2.197429</sample>
+             <sample>2.197429</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>9</sample>
+             <sample>11</sample>
+             <sample>11</sample>
+          </function>  
+        </functions>  
+      <root ID='60' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='520.512512' y='985.777344' z='633.436279'/>
+             <point x='520.314758' y='1026.627441' z='626.444702'/>
+             <point x='520.040466' y='1084.880005' z='616.745117'/>
+             <point x='519.773438' y='1143.174561' z='607.301453'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.061359</sample>
+             <sample>1.061359</sample>
+             <sample>1.042896</sample>
+             <sample>1.042896</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>13</sample>
+             <sample>16</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='86' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.274841' y='1010.775085' z='574.469910'/>
+             <point x='635.016357' y='1033.619507' z='543.970642'/>
+             <point x='678.357483' y='1059.997314' z='513.750488'/>
+             <point x='720.406555' y='1089.319092' z='484.431244'/>
+             <point x='761.077881' y='1121.399414' z='456.072662'/>
+             <point x='800.305176' y='1156.049194' z='428.720917'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.438028</sample>
+             <sample>2.438028</sample>
+             <sample>2.438028</sample>
+             <sample>2.371672</sample>
+             <sample>2.371672</sample>
+             <sample>2.371672</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>10</sample>
+             <sample>12</sample>
+             <sample>13</sample>
+             <sample>14</sample>
+             <sample>15</sample>
+             <sample>15</sample>
+          </function>  
+        </functions>  
+      <root ID='86' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='714.925964' y='1085.497437' z='488.252625'/>
+             <point x='703.762695' y='1101.738892' z='469.311707'/>
+             <point x='680.132812' y='1138.093872' z='429.218597'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.353349</sample>
+             <sample>1.353349</sample>
+             <sample>1.353349</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>14</sample>
+             <sample>17</sample>
+             <sample>17</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='86' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='783.863525' y='1141.526123' z='440.184998'/>
+             <point x='824.293274' y='1161.787354' z='478.164307'/>
+             <point x='864.280457' y='1183.639404' z='515.727844'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.172737</sample>
+             <sample>1.172737</sample>
+             <sample>1.172737</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>20</sample>
+             <sample>20</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='87' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.286987' y='1044.458984' z='574.199829'/>
+             <point x='548.328674' y='1063.308472' z='587.799377'/>
+             <point x='497.549408' y='1088.814453' z='603.874817'/>
+             <point x='448.026245' y='1116.906616' z='619.552612'/>
+             <point x='399.839996' y='1147.449951' z='634.807129'/>
+             <point x='353.057159' y='1180.306030' z='649.617432'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.044567</sample>
+             <sample>2.035213</sample>
+             <sample>2.035213</sample>
+             <sample>2.035213</sample>
+             <sample>2.011630</sample>
+             <sample>2.011630</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>10</sample>
+             <sample>12</sample>
+             <sample>13</sample>
+             <sample>14</sample>
+             <sample>15</sample>
+             <sample>15</sample>
+          </function>  
+        </functions>  
+      <root ID='87' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='561.660583' y='1057.458740' z='583.578857'/>
+             <point x='554.932312' y='1087.689697' z='565.116089'/>
+             <point x='544.137390' y='1137.624878' z='535.494141'/>
+             <point x='533.564758' y='1187.963989' z='506.481995'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.912680</sample>
+             <sample>0.912680</sample>
+             <sample>0.891529</sample>
+             <sample>0.891529</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>12</sample>
+             <sample>16</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='87' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='419.339996' y='1135.089600' z='628.633911'/>
+             <point x='387.269318' y='1131.328247' z='597.081238'/>
+             <point x='345.234100' y='1128.134399' z='555.724854'/>
+             <point x='303.150177' y='1126.671753' z='514.320618'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.100977</sample>
+             <sample>1.100977</sample>
+             <sample>1.056747</sample>
+             <sample>1.056747</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>16</sample>
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>22</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='132' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.309265' y='1111.827271' z='573.704895'/>
+             <point x='550.882568' y='1133.721069' z='604.083740'/>
+             <point x='508.667572' y='1160.161011' z='635.806396'/>
+             <point x='467.655823' y='1189.414429' z='666.624878'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.282516</sample>
+             <sample>2.261786</sample>
+             <sample>2.261786</sample>
+             <sample>2.261786</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>11</sample>
+             <sample>13</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      <root ID='132' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='566.596802' y='1125.210693' z='592.275208'/>
+             <point x='562.859009' y='1111.271606' z='614.018005'/>
+             <point x='554.252686' y='1081.153320' z='664.081299'/>
+             <point x='545.503113' y='1052.509033' z='714.977844'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.223908</sample>
+             <sample>1.223908</sample>
+             <sample>1.209525</sample>
+             <sample>1.209525</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>12</sample>
+             <sample>15</sample>
+             <sample>17</sample>
+             <sample>17</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='132' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='494.375275' y='1170.355591' z='646.546448'/>
+             <point x='460.850433' y='1176.234253' z='623.924805'/>
+             <point x='412.612640' y='1186.291382' z='591.375244'/>
+             <point x='364.614166' y='1197.895996' z='558.987183'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.029534</sample>
+             <sample>1.029534</sample>
+             <sample>1.029534</sample>
+             <sample>1.029534</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>16</sample>
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>22</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='133' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.319153' y='1145.511475' z='573.485168'/>
+             <point x='549.934387' y='1169.435547' z='608.161499'/>
+             <point x='509.729553' y='1196.568848' z='641.849243'/>
+             <point x='470.806122' y='1226.715210' z='674.463257'/>
+             <point x='433.244934' y='1259.671875' z='705.935791'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.467127</sample>
+             <sample>2.467127</sample>
+             <sample>2.450030</sample>
+             <sample>2.450030</sample>
+             <sample>2.450030</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>11</sample>
+             <sample>12</sample>
+             <sample>13</sample>
+             <sample>14</sample>
+             <sample>14</sample>
+          </function>  
+        </functions>  
+      <root ID='133' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='521.340698' y='1188.732666' z='632.120239'/>
+             <point x='517.533508' y='1211.214111' z='624.103699'/>
+             <point x='508.492096' y='1266.380371' z='605.065796'/>
+             <point x='499.705292' y='1321.769775' z='586.564026'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.151858</sample>
+             <sample>1.151858</sample>
+             <sample>1.114768</sample>
+             <sample>1.114768</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>13</sample>
+             <sample>16</sample>
+             <sample>18</sample>
+             <sample>18</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='172' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.337158' y='1212.880493' z='573.085083'/>
+             <point x='540.866455' y='1235.283813' z='560.098206'/>
+             <point x='489.698853' y='1261.666382' z='546.931946'/>
+             <point x='440.026001' y='1290.936523' z='534.150269'/>
+             <point x='391.945374' y='1322.916138' z='521.778381'/>
+             <point x='345.533020' y='1357.423706' z='509.835724'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.465031</sample>
+             <sample>2.444021</sample>
+             <sample>2.444021</sample>
+             <sample>2.444021</sample>
+             <sample>2.338521</sample>
+             <sample>2.338521</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>12</sample>
+             <sample>14</sample>
+             <sample>15</sample>
+             <sample>16</sample>
+             <sample>17</sample>
+             <sample>17</sample>
+          </function>  
+        </functions>  
+      <root ID='172' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='561.366760' y='1226.183960' z='565.373230'/>
+             <point x='564.407227' y='1249.726685' z='555.383972'/>
+             <point x='571.177002' y='1304.012695' z='533.142151'/>
+             <point x='577.749634' y='1358.583862' z='511.548248'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.215558</sample>
+             <sample>1.215558</sample>
+             <sample>1.215558</sample>
+             <sample>1.215558</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>13</sample>
+             <sample>16</sample>
+             <sample>18</sample>
+             <sample>18</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='172' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='417.820679' y='1305.705811' z='528.436462'/>
+             <point x='412.324097' y='1338.297729' z='558.912720'/>
+             <point x='405.255310' y='1381.902832' z='598.106201'/>
+             <point x='398.337219' y='1426.268677' z='636.463989'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.270446</sample>
+             <sample>1.186208</sample>
+             <sample>1.102215</sample>
+             <sample>1.102215</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='172' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='390.449249' y='1324.028564' z='521.393433'/>
+             <point x='364.695374' y='1305.953369' z='489.417358'/>
+             <point x='330.401276' y='1283.628418' z='446.837769'/>
+             <point x='295.737366' y='1262.805664' z='403.799011'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.137026</sample>
+             <sample>1.137026</sample>
+             <sample>1.093159</sample>
+             <sample>1.093159</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='231' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.366577' y='1347.619019' z='572.432373'/>
+             <point x='601.692261' y='1366.677124' z='527.386597'/>
+             <point x='613.615112' y='1391.974121' z='475.372986'/>
+             <point x='625.239075' y='1419.919312' z='424.663452'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.076304</sample>
+             <sample>2.076304</sample>
+             <sample>2.053296</sample>
+             <sample>2.053296</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>13</sample>
+             <sample>15</sample>
+             <sample>16</sample>
+             <sample>16</sample>
+          </function>  
+        </functions>  
+      <root ID='231' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='612.002075' y='1388.551636' z='482.409882'/>
+             <point x='620.276245' y='1446.611572' z='489.345367'/>
+             <point x='628.339844' y='1504.721680' z='496.104309'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.004717</sample>
+             <sample>1.004717</sample>
+             <sample>1.004717</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>21</sample>
+             <sample>21</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='286' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.383606' y='1448.673462' z='572.051697'/>
+             <point x='607.824463' y='1467.948364' z='614.847534'/>
+             <point x='626.902100' y='1493.589844' z='664.507080'/>
+             <point x='645.497803' y='1521.850342' z='712.912109'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.073273</sample>
+             <sample>2.073273</sample>
+             <sample>2.063328</sample>
+             <sample>2.063328</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>14</sample>
+             <sample>16</sample>
+             <sample>17</sample>
+             <sample>17</sample>
+          </function>  
+        </functions>  
+      <root ID='286' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='624.404175' y='1490.232422' z='658.004944'/>
+             <point x='632.163086' y='1527.922363' z='651.586914'/>
+             <point x='643.617615' y='1585.075928' z='642.111938'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.966761</sample>
+             <sample>0.945244</sample>
+             <sample>0.945244</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>22</sample>
+             <sample>22</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='287' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.388733' y='1482.358154' z='571.939209'/>
+             <point x='551.435669' y='1501.686157' z='594.951111'/>
+             <point x='505.319916' y='1527.285645' z='621.512573'/>
+             <point x='460.372925' y='1555.518066' z='647.400879'/>
+             <point x='416.670502' y='1586.242676' z='672.572327'/>
+             <point x='374.274506' y='1619.315430' z='696.991333'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.204589</sample>
+             <sample>2.180694</sample>
+             <sample>2.180694</sample>
+             <sample>2.161821</sample>
+             <sample>2.139674</sample>
+             <sample>2.139674</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>14</sample>
+             <sample>16</sample>
+             <sample>17</sample>
+             <sample>18</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+          </function>  
+        </functions>  
+      <root ID='287' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='564.468872' y='1495.381104' z='587.444336'/>
+             <point x='544.777588' y='1481.162109' z='583.931641'/>
+             <point x='496.533203' y='1448.208862' z='575.325378'/>
+             <point x='447.447632' y='1416.563354' z='566.569153'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.173787</sample>
+             <sample>1.173787</sample>
+             <sample>1.173787</sample>
+             <sample>1.173787</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>15</sample>
+             <sample>18</sample>
+             <sample>20</sample>
+             <sample>20</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='287' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='460.135132' y='1555.685181' z='647.537842'/>
+             <point x='428.610840' y='1549.363159' z='630.588989'/>
+             <point x='377.182465' y='1540.526001' z='602.938721'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.948414</sample>
+             <sample>0.948414</sample>
+             <sample>0.948414</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='287' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='386.287811' y='1609.944092' z='690.071960'/>
+             <point x='382.425323' y='1603.227173' z='713.419312'/>
+             <point x='373.076935' y='1588.838989' z='769.926758'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.233482</sample>
+             <sample>1.233482</sample>
+             <sample>1.233482</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='288' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.393250' y='1516.042969' z='571.837524'/>
+             <point x='593.378601' y='1537.518066' z='621.775146'/>
+             <point x='595.479736' y='1563.783936' z='674.625793'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.258578</sample>
+             <sample>2.258578</sample>
+             <sample>2.258578</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>14</sample>
+             <sample>16</sample>
+             <sample>16</sample>
+          </function>  
+        </functions>  
+      <root ID='288' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='593.840210' y='1543.288818' z='633.386475'/>
+             <point x='596.512878' y='1567.048340' z='630.744080'/>
+             <point x='602.880310' y='1625.420776' z='624.448853'/>
+             <point x='609.059326' y='1683.833252' z='618.339844'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.198009</sample>
+             <sample>1.198009</sample>
+             <sample>1.198009</sample>
+             <sample>1.198009</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>20</sample>
+             <sample>22</sample>
+             <sample>22</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='350' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.397644' y='1549.727905' z='571.740906'/>
+             <point x='558.253906' y='1570.858276' z='534.452576'/>
+             <point x='523.023743' y='1596.845703' z='494.816803'/>
+             <point x='488.767151' y='1625.631592' z='456.276428'/>
+             <point x='455.548309' y='1657.052612' z='418.903564'/>
+             <point x='423.418213' y='1690.941895' z='382.755524'/>
+             <point x='392.415283' y='1727.132080' z='347.875732'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.782394</sample>
+             <sample>2.782394</sample>
+             <sample>2.767499</sample>
+             <sample>2.734605</sample>
+             <sample>2.715899</sample>
+             <sample>2.411825</sample>
+             <sample>2.411825</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>15</sample>
+             <sample>17</sample>
+             <sample>18</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>21</sample>
+          </function>  
+        </functions>  
+      <root ID='350' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='530.289551' y='1591.486084' z='502.991272'/>
+             <point x='542.432373' y='1582.492676' z='464.528229'/>
+             <point x='559.882935' y='1571.196167' z='409.252747'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.028291</sample>
+             <sample>1.028291</sample>
+             <sample>1.028291</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>22</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='350' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='471.992920' y='1641.498047' z='437.404602'/>
+             <point x='450.364227' y='1617.191650' z='413.329559'/>
+             <point x='418.294586' y='1582.771118' z='377.632629'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.022944</sample>
+             <sample>1.022944</sample>
+             <sample>1.022944</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='350' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='453.126923' y='1659.606567' z='416.179413'/>
+             <point x='475.374634' y='1699.424072' z='407.134430'/>
+             <point x='502.918243' y='1750.448120' z='395.936340'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.219559</sample>
+             <sample>1.166481</sample>
+             <sample>1.166481</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='350' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='434.799927' y='1678.936890' z='395.560577'/>
+             <point x='408.352905' y='1671.984741' z='396.712250'/>
+             <point x='350.820953' y='1658.896240' z='399.217499'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.353936</sample>
+             <sample>1.353936</sample>
+             <sample>1.353936</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='351' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.401672' y='1583.412842' z='571.650879'/>
+             <point x='541.084717' y='1605.970825' z='585.429993'/>
+             <point x='490.181580' y='1632.467285' z='599.369629'/>
+             <point x='440.773834' y='1661.849609' z='612.899780'/>
+             <point x='392.958038' y='1693.938477' z='625.994019'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.434178</sample>
+             <sample>2.411406</sample>
+             <sample>2.411406</sample>
+             <sample>2.302221</sample>
+             <sample>2.302221</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>15</sample>
+             <sample>17</sample>
+             <sample>18</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+          </function>  
+        </functions>  
+      <root ID='351' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='561.581238' y='1596.781860' z='579.817139'/>
+             <point x='559.125244' y='1597.739624' z='603.443726'/>
+             <point x='553.034668' y='1601.916016' z='662.035278'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.149403</sample>
+             <sample>1.149403</sample>
+             <sample>1.149403</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>16</sample>
+             <sample>19</sample>
+             <sample>19</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='351' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='474.413208' y='1641.844604' z='603.687744'/>
+             <point x='457.317993' y='1626.841064' z='610.271362'/>
+             <point x='413.856354' y='1590.530762' z='627.009094'/>
+             <point x='369.578522' y='1555.371094' z='644.061157'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.248601</sample>
+             <sample>1.248601</sample>
+             <sample>1.190480</sample>
+             <sample>1.190480</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='351' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='446.231049' y='1658.604370' z='611.405334'/>
+             <point x='436.626251' y='1650.437500' z='634.340759'/>
+             <point x='414.739563' y='1633.794189' z='686.604309'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.252677</sample>
+             <sample>1.252677</sample>
+             <sample>1.252677</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>22</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='352' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.405396' y='1617.097778' z='571.567871'/>
+             <point x='539.404480' y='1640.429443' z='556.106995'/>
+             <point x='488.699982' y='1666.683838' z='541.031555'/>
+             <point x='439.400543' y='1695.704956' z='526.373901'/>
+             <point x='391.595978' y='1727.331055' z='512.160645'/>
+             <point x='345.357422' y='1761.397339' z='498.413055'/>
+             <point x='300.738495' y='1797.738281' z='485.146942'/>
+             <point x='257.776062' y='1836.190674' z='472.373413'/>
+             <point x='216.491898' y='1876.594482' z='460.098816'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.907631</sample>
+             <sample>2.907631</sample>
+             <sample>2.892008</sample>
+             <sample>2.812512</sample>
+             <sample>2.715548</sample>
+             <sample>2.675318</sample>
+             <sample>2.472271</sample>
+             <sample>2.343039</sample>
+             <sample>2.343039</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>16</sample>
+             <sample>17</sample>
+             <sample>18</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      <root ID='352' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='446.696838' y='1691.409912' z='528.543213'/>
+             <point x='438.378418' y='1683.835327' z='506.605530'/>
+             <point x='418.267822' y='1667.397461' z='453.569061'/>
+             <point x='397.989075' y='1652.694458' z='400.089142'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.281022</sample>
+             <sample>1.281022</sample>
+             <sample>1.235530</sample>
+             <sample>1.235530</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='352' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='391.940155' y='1727.103394' z='512.262939'/>
+             <point x='376.543335' y='1713.808960' z='497.963043'/>
+             <point x='339.360413' y='1683.604004' z='463.429047'/>
+             <point x='301.579987' y='1654.813110' z='428.340149'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.323601</sample>
+             <sample>1.323601</sample>
+             <sample>1.242448</sample>
+             <sample>1.242448</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>23</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='352' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='365.554413' y='1746.517090' z='504.417999'/>
+             <point x='369.344635' y='1768.832153' z='511.597900'/>
+             <point x='378.507355' y='1824.530273' z='528.954956'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.193941</sample>
+             <sample>1.193941</sample>
+             <sample>1.193941</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='419' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.412170' y='1684.467773' z='571.417053'/>
+             <point x='544.666870' y='1704.235474' z='577.063477'/>
+             <point x='491.870148' y='1729.913086' z='583.440918'/>
+             <point x='440.441193' y='1758.267700' z='589.653076'/>
+             <point x='390.469391' y='1789.152954' z='595.689270'/>
+             <point x='342.027130' y='1822.418823' z='601.540649'/>
+             <point x='295.170593' y='1857.914429' z='607.200562'/>
+             <point x='249.940628' y='1895.489746' z='612.663940'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.734696</sample>
+             <sample>2.734696</sample>
+             <sample>2.596001</sample>
+             <sample>2.535559</sample>
+             <sample>2.405518</sample>
+             <sample>2.382851</sample>
+             <sample>2.166758</sample>
+             <sample>2.166758</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>16</sample>
+             <sample>18</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      <root ID='419' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='530.090881' y='1711.324463' z='578.824158'/>
+             <point x='515.535400' y='1727.029541' z='539.742798'/>
+             <point x='496.448761' y='1749.321045' z='488.495392'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.163350</sample>
+             <sample>1.163350</sample>
+             <sample>1.163350</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='419' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='499.975647' y='1725.970947' z='582.461853'/>
+             <point x='483.278107' y='1715.262085' z='616.682129'/>
+             <point x='458.176208' y='1700.740234' z='668.126465'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.008014</sample>
+             <sample>1.008014</sample>
+             <sample>1.008014</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='419' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='470.430573' y='1741.733521' z='586.030640'/>
+             <point x='448.991425' y='1727.741455' z='621.982178'/>
+             <point x='420.051239' y='1710.571655' z='670.512268'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.178282</sample>
+             <sample>1.131957</sample>
+             <sample>1.131957</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='419' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='412.573059' y='1775.491699' z='593.019348'/>
+             <point x='381.085205' y='1751.041260' z='610.871948'/>
+             <point x='337.834595' y='1719.173096' z='635.393677'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.156994</sample>
+             <sample>1.110545</sample>
+             <sample>1.110545</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='420' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.415283' y='1718.152466' z='571.347900'/>
+             <point x='552.596252' y='1741.169800' z='533.258545'/>
+             <point x='514.640991' y='1766.859131' z='496.016693'/>
+             <point x='477.618439' y='1795.094116' z='459.690033'/>
+             <point x='441.587128' y='1825.742798' z='424.335938'/>
+             <point x='406.595123' y='1858.670288' z='390.001617'/>
+             <point x='372.680420' y='1893.740601' z='356.724426'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.218095</sample>
+             <sample>2.218095</sample>
+             <sample>2.199975</sample>
+             <sample>2.148059</sample>
+             <sample>2.115860</sample>
+             <sample>2.052471</sample>
+             <sample>2.052471</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>18</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      <root ID='420' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='504.215424' y='1774.810181' z='485.787109'/>
+             <point x='521.537109' y='1779.841187' z='448.142426'/>
+             <point x='545.952148' y='1788.557861' z='395.081818'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.102505</sample>
+             <sample>1.042949</sample>
+             <sample>1.042949</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='421' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.418091' y='1751.837646' z='571.285522'/>
+             <point x='605.871338' y='1775.549927' z='623.403992'/>
+             <point x='619.926147' y='1802.407837' z='674.085571'/>
+             <point x='633.548096' y='1832.225464' z='723.206482'/>
+             <point x='646.709717' y='1864.810059' z='770.667236'/>
+             <point x='659.389832' y='1899.966675' z='816.391663'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.713890</sample>
+             <sample>2.705249</sample>
+             <sample>2.655611</sample>
+             <sample>2.589720</sample>
+             <sample>2.382659</sample>
+             <sample>2.382659</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>18</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>21</sample>
+          </function>  
+        </functions>  
+      <root ID='421' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='599.662231' y='1765.363037' z='601.013855'/>
+             <point x='622.345642' y='1756.560181' z='608.901306'/>
+             <point x='675.282471' y='1737.948975' z='627.308533'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.185872</sample>
+             <sample>1.185872</sample>
+             <sample>1.185872</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>21</sample>
+             <sample>21</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='421' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='615.867126' y='1794.651367' z='659.448792'/>
+             <point x='641.586853' y='1791.781250' z='664.631775'/>
+             <point x='699.311707' y='1787.306152' z='676.264465'/>
+             <point x='757.150330' y='1784.786743' z='687.920105'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.302129</sample>
+             <sample>1.302129</sample>
+             <sample>1.258023</sample>
+             <sample>1.258023</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>22</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='421' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='623.762085' y='1810.804565' z='687.918030'/>
+             <point x='590.301025' y='1806.324341' z='719.824158'/>
+             <point x='547.656433' y='1802.390381' z='760.487122'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.230039</sample>
+             <sample>1.186359</sample>
+             <sample>1.186359</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='421' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='639.107605' y='1845.989136' z='743.253967'/>
+             <point x='651.217102' y='1831.149292' z='761.890076'/>
+             <point x='678.473816' y='1799.764160' z='803.837097'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.314511</sample>
+             <sample>1.314511</sample>
+             <sample>1.314511</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='421' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='646.614990' y='1864.575439' z='770.325500'/>
+             <point x='627.082275' y='1882.351929' z='775.185303'/>
+             <point x='585.076965' y='1922.524536' z='785.636353'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.313066</sample>
+             <sample>1.313066</sample>
+             <sample>1.313066</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='468' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.420776' y='1785.522705' z='571.226135'/>
+             <point x='596.763306' y='1804.270630' z='615.890381'/>
+             <point x='603.093445' y='1829.703247' z='668.811279'/>
+             <point x='609.267761' y='1857.720459' z='720.429260'/>
+             <point x='615.276123' y='1888.188354' z='770.659912'/>
+             <point x='621.110229' y='1920.968994' z='819.433838'/>
+             <point x='626.763550' y='1955.923828' z='866.696045'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.456914</sample>
+             <sample>2.456914</sample>
+             <sample>2.341487</sample>
+             <sample>2.341487</sample>
+             <sample>2.257166</sample>
+             <sample>2.079129</sample>
+             <sample>2.079129</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      <root ID='468' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='602.371704' y='1826.803467' z='662.777466'/>
+             <point x='636.629578' y='1850.135376' z='663.575989'/>
+             <point x='684.675354' y='1884.455322' z='664.695923'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.093792</sample>
+             <sample>1.044133</sample>
+             <sample>1.044133</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='469' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.423279' y='1819.207642' z='571.170898'/>
+             <point x='635.959167' y='1837.766724' z='575.764404'/>
+             <point x='689.029602' y='1863.086304' z='581.238159'/>
+             <point x='740.805054' y='1890.984131' z='586.578369'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.195771</sample>
+             <sample>2.178887</sample>
+             <sample>2.069925</sample>
+             <sample>2.069925</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>20</sample>
+          </function>  
+        </functions>  
+      <root ID='469' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='622.376587' y='1832.106445' z='574.363464'/>
+             <point x='639.974915' y='1817.383057' z='604.741211'/>
+             <point x='667.541199' y='1795.857056' z='652.325195'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.967089</sample>
+             <sample>0.967089</sample>
+             <sample>0.967089</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='469' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='652.947144' y='1845.871704' z='577.516602'/>
+             <point x='674.289917' y='1831.557495' z='616.536438'/>
+             <point x='701.506348' y='1815.099487' z='666.294922'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.238045</sample>
+             <sample>1.198168</sample>
+             <sample>1.198168</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='470' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.425598' y='1852.892700' z='571.119873'/>
+             <point x='634.913879' y='1870.860718' z='567.599915'/>
+             <point x='688.177368' y='1895.998779' z='563.288818'/>
+             <point x='740.180359' y='1923.666016' z='559.079651'/>
+             <point x='790.840820' y='1953.736328' z='554.979187'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.233215</sample>
+             <sample>2.198194</sample>
+             <sample>2.115216</sample>
+             <sample>2.069063</sample>
+             <sample>2.069063</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>21</sample>
+          </function>  
+        </functions>  
+      <root ID='470' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='622.471252' y='1865.719849' z='568.607056'/>
+             <point x='640.977356' y='1850.039429' z='539.959534'/>
+             <point x='670.397522' y='1826.633301' z='494.417023'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.999361</sample>
+             <sample>0.959965</sample>
+             <sample>0.959965</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='470' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='653.118896' y='1879.452637' z='566.126404'/>
+             <point x='673.266663' y='1863.079102' z='539.393982'/>
+             <point x='705.547119' y='1838.359863' z='496.563599'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.951486</sample>
+             <sample>0.951486</sample>
+             <sample>0.951486</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='470' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='713.273560' y='1909.350830' z='561.257507'/>
+             <point x='709.126465' y='1949.262817' z='571.358887'/>
+             <point x='703.360474' y='2006.333130' z='585.403320'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.081562</sample>
+             <sample>1.035100</sample>
+             <sample>1.035100</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='471' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.427795' y='1886.577637' z='571.070984'/>
+             <point x='568.381104' y='1905.469360' z='531.767273'/>
+             <point x='541.405212' y='1930.834717' z='485.762848'/>
+             <point x='515.099182' y='1958.814697' z='440.900726'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.242369</sample>
+             <sample>2.181137</sample>
+             <sample>2.052548</sample>
+             <sample>2.052548</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>17</sample>
+             <sample>19</sample>
+             <sample>20</sample>
+             <sample>20</sample>
+          </function>  
+        </functions>  
+      <root ID='471' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='575.688354' y='1899.479614' z='544.229004'/>
+             <point x='580.446594' y='1878.559937' z='515.536377'/>
+             <point x='588.402832' y='1845.056641' z='467.559998'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.887351</sample>
+             <sample>0.887351</sample>
+             <sample>0.887351</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='471' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='560.137634' y='1913.220703' z='517.709106'/>
+             <point x='572.596313' y='1953.413696' z='513.813232'/>
+             <point x='589.556091' y='2009.731934' z='508.509857'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.098187</sample>
+             <sample>1.098187</sample>
+             <sample>1.098187</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='528' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.429749' y='1920.262695' z='571.027222'/>
+             <point x='636.430359' y='1939.131226' z='564.925415'/>
+             <point x='689.262268' y='1964.527588' z='557.761719'/>
+             <point x='740.784485' y='1992.530518' z='550.775635'/>
+             <point x='790.911255' y='2023.003662' z='543.978760'/>
+             <point x='839.572388' y='2055.807129' z='537.380554'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.374443</sample>
+             <sample>2.355356</sample>
+             <sample>2.335840</sample>
+             <sample>2.313018</sample>
+             <sample>2.201539</sample>
+             <sample>2.201539</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='529' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.431641' y='1953.947876' z='570.984741'/>
+             <point x='619.894592' y='1973.712280' z='608.413940'/>
+             <point x='652.079712' y='1999.408813' z='650.737854'/>
+             <point x='683.431335' y='2027.778687' z='691.965637'/>
+             <point x='713.895203' y='2058.675781' z='732.026062'/>
+             <point x='743.427246' y='2091.950439' z='770.861145'/>
+             <point x='771.993408' y='2127.452148' z='808.425964'/>
+             <point x='799.568665' y='2165.031250' z='844.687866'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.883594</sample>
+             <sample>2.866637</sample>
+             <sample>2.796209</sample>
+             <sample>2.642811</sample>
+             <sample>2.563891</sample>
+             <sample>2.420069</sample>
+             <sample>2.278616</sample>
+             <sample>2.278616</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      <root ID='529' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='610.228577' y='1967.000244' z='595.703003'/>
+             <point x='591.392761' y='1993.756226' z='613.442322'/>
+             <point x='562.046326' y='2036.911987' z='641.080505'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>0.964623</sample>
+             <sample>0.912683</sample>
+             <sample>0.912683</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='529' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='647.170898' y='1995.489502' z='644.282654'/>
+             <point x='659.592834' y='1965.492676' z='675.650024'/>
+             <point x='676.161377' y='1927.249268' z='717.488220'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.180853</sample>
+             <sample>1.140655</sample>
+             <sample>1.140655</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='530' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.433350' y='1987.632812' z='570.946472'/>
+             <point x='630.279724' y='2008.203491' z='541.545959'/>
+             <point x='672.610291' y='2034.072876' z='509.508453'/>
+             <point x='713.801208' y='2062.689697' z='478.333435'/>
+             <point x='753.777832' y='2093.898193' z='448.077515'/>
+             <point x='792.480103' y='2127.538086' z='418.786041'/>
+             <point x='829.862366' y='2163.449463' z='390.493622'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.808572</sample>
+             <sample>2.789757</sample>
+             <sample>2.657974</sample>
+             <sample>2.582377</sample>
+             <sample>2.488820</sample>
+             <sample>2.348442</sample>
+             <sample>2.348442</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      <root ID='530' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='664.809570' y='2029.305664' z='515.412354'/>
+             <point x='705.292236' y='2012.781250' z='526.001770'/>
+             <point x='758.988770' y='1992.609375' z='540.047668'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.202710</sample>
+             <sample>1.156434</sample>
+             <sample>1.156434</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='531' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.434998' y='2021.317871' z='570.909973'/>
+             <point x='552.979797' y='2041.947021' z='540.847595'/>
+             <point x='511.164246' y='2067.838623' z='508.158234'/>
+             <point x='470.477386' y='2096.481201' z='476.351257'/>
+             <point x='430.993256' y='2127.718262' z='445.484528'/>
+             <point x='392.771088' y='2161.389648' z='415.604309'/>
+             <point x='355.856079' y='2197.333740' z='386.745972'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.814241</sample>
+             <sample>2.814241</sample>
+             <sample>2.662616</sample>
+             <sample>2.574907</sample>
+             <sample>2.470215</sample>
+             <sample>2.320762</sample>
+             <sample>2.320762</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>18</sample>
+             <sample>20</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      <root ID='531' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='542.798706' y='2048.250977' z='532.888489'/>
+             <point x='555.301392' y='2050.779541' z='491.014221'/>
+             <point x='572.133972' y='2055.872314' z='434.638367'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.183534</sample>
+             <sample>1.140835</sample>
+             <sample>1.140835</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='575' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.437988' y='2088.687988' z='570.844727'/>
+             <point x='588.130005' y='2112.209473' z='516.888855'/>
+             <point x='584.906982' y='2138.921387' z='464.318939'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.701604</sample>
+             <sample>2.676067</sample>
+             <sample>2.676067</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>21</sample>
+             <sample>21</sample>
+          </function>  
+        </functions>  
+      <root ID='575' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='587.670593' y='2116.016846' z='509.396027'/>
+             <point x='597.609375' y='2101.038330' z='490.967224'/>
+             <point x='620.839783' y='2067.986572' z='447.892426'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.261604</sample>
+             <sample>1.261604</sample>
+             <sample>1.261604</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='575' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='585.832214' y='2131.253174' z='479.410187'/>
+             <point x='604.346008' y='2120.355469' z='461.681885'/>
+             <point x='644.118225' y='2099.019287' z='423.597198'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.354037</sample>
+             <sample>1.354037</sample>
+             <sample>1.354037</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='577' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.440491' y='2156.058105' z='570.787842'/>
+             <point x='548.721130' y='2175.285156' z='587.980530'/>
+             <point x='499.316315' y='2200.806152' z='607.863892'/>
+             <point x='451.158081' y='2228.959961' z='627.245483'/>
+             <point x='404.327789' y='2259.606445' z='646.092712'/>
+             <point x='358.891937' y='2292.602051' z='664.378662'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.505914</sample>
+             <sample>2.445990</sample>
+             <sample>2.405840</sample>
+             <sample>2.327711</sample>
+             <sample>2.209557</sample>
+             <sample>2.209557</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>19</sample>
+             <sample>21</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      <root ID='577' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='562.603882' y='2169.036865' z='582.393311'/>
+             <point x='528.303284' y='2155.222656' z='558.120361'/>
+             <point x='482.109497' y='2138.339111' z='525.431152'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.174144</sample>
+             <sample>1.133375</sample>
+             <sample>1.133375</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='649' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.441650' y='2189.742920' z='570.761719'/>
+             <point x='559.468689' y='2210.570068' z='533.403503'/>
+             <point x='524.975952' y='2236.521484' z='493.101105'/>
+             <point x='491.422821' y='2265.239014' z='453.896515'/>
+             <point x='458.870728' y='2296.563477' z='415.861633'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.530027</sample>
+             <sample>2.440715</sample>
+             <sample>2.351447</sample>
+             <sample>2.254873</sample>
+             <sample>2.254873</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      <root ID='649' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='571.273315' y='2202.880615' z='547.196472'/>
+             <point x='559.137329' y='2241.213379' z='558.368713'/>
+             <point x='542.389160' y='2295.704590' z='573.786804'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.045453</sample>
+             <sample>1.045453</sample>
+             <sample>1.045453</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='650' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.442749' y='2223.427979' z='570.738281'/>
+             <point x='545.499268' y='2242.670654' z='566.740662'/>
+             <point x='492.439575' y='2268.182617' z='562.123901'/>
+             <point x='440.719940' y='2296.331055' z='557.623718'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.435769</sample>
+             <sample>2.318125</sample>
+             <sample>2.144623</sample>
+             <sample>2.144623</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      <root ID='650' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='560.472351' y='2236.399414' z='568.043518'/>
+             <point x='532.578735' y='2217.558350' z='597.903137'/>
+             <point x='495.528870' y='2194.281494' z='637.564392'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.134914</sample>
+             <sample>1.134914</sample>
+             <sample>1.134914</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='651' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.443726' y='2257.113281' z='570.715820'/>
+             <point x='563.189392' y='2279.405762' z='614.046448'/>
+             <point x='534.338684' y='2305.815918' z='658.291748'/>
+             <point x='506.326080' y='2335.094727' z='701.251648'/>
+             <point x='479.205933' y='2367.066162' z='742.842957'/>
+             <point x='453.020630' y='2401.551025' z='783.000549'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.927681</sample>
+             <sample>2.819997</sample>
+             <sample>2.728193</sample>
+             <sample>2.554599</sample>
+             <sample>2.474690</sample>
+             <sample>2.474690</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      <root ID='651' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='574.547058' y='2270.444580' z='596.628357'/>
+             <point x='558.103333' y='2289.260254' z='588.097961'/>
+             <point x='522.185425' y='2332.274658' z='569.465149'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.247913</sample>
+             <sample>1.247913</sample>
+             <sample>1.247913</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='652' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.444702' y='2290.798096' z='570.695007'/>
+             <point x='550.075806' y='2311.488525' z='596.624451'/>
+             <point x='505.124542' y='2337.432129' z='624.799194'/>
+             <point x='461.389618' y='2366.125732' z='652.211609'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.576652</sample>
+             <sample>2.475728</sample>
+             <sample>2.358423</sample>
+             <sample>2.358423</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>20</sample>
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>23</sample>
+          </function>  
+        </functions>  
+      <root ID='652' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='565.165161' y='2303.941650' z='587.166687'/>
+             <point x='545.377136' y='2301.596191' z='574.364807'/>
+             <point x='495.911102' y='2297.536865' z='542.362610'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>1.139968</sample>
+             <sample>1.139968</sample>
+             <sample>1.139968</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+      <root ID='724' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.445557' y='2324.483154' z='570.675781'/>
+             <point x='578.157959' y='2347.141357' z='519.885742'/>
+             <point x='564.797607' y='2373.618896' z='468.817688'/>
+             <point x='551.831665' y='2402.998047' z='419.257111'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.744360</sample>
+             <sample>2.663020</sample>
+             <sample>2.480677</sample>
+             <sample>2.480677</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='725' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.446350' y='2358.168213' z='570.657349'/>
+             <point x='549.035461' y='2376.552979' z='583.862305'/>
+             <point x='498.074371' y='2401.825684' z='599.729431'/>
+             <point x='448.345551' y='2429.661133' z='615.212891'/>
+             <point x='399.929321' y='2459.928711' z='630.287659'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.404331</sample>
+             <sample>2.309115</sample>
+             <sample>2.153376</sample>
+             <sample>2.153376</sample>
+             <sample>2.153376</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>21</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='726' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.447144' y='2391.853271' z='570.640808'/>
+             <point x='640.909546' y='2415.269531' z='548.445190'/>
+             <point x='689.106445' y='2441.666748' z='526.817444'/>
+             <point x='735.930786' y='2470.881348' z='505.805664'/>
+             <point x='781.294617' y='2502.744385' z='485.449188'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.761929</sample>
+             <sample>2.680090</sample>
+             <sample>2.577395</sample>
+             <sample>2.416700</sample>
+             <sample>2.416700</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>23</sample>
+             <sample>24</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='782' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.447815' y='2425.538330' z='570.624756'/>
+             <point x='548.394775' y='2443.816162' z='580.694824'/>
+             <point x='496.407898' y='2469.055176' z='592.854553'/>
+             <point x='445.671234' y='2496.848389' z='604.721863'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.310508</sample>
+             <sample>2.231375</sample>
+             <sample>2.073978</sample>
+             <sample>2.073978</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>24</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='783' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.448486' y='2459.223389' z='570.610352'/>
+             <point x='617.559448' y='2479.243652' z='610.367432'/>
+             <point x='646.733826' y='2504.994141' z='654.789001'/>
+             <point x='675.143188' y='2533.441650' z='698.045654'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.526332</sample>
+             <sample>2.446032</sample>
+             <sample>2.295632</sample>
+             <sample>2.295632</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>24</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='784' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.449097' y='2492.908447' z='570.596619'/>
+             <point x='595.733765' y='2510.844238' z='613.893677'/>
+             <point x='600.995667' y='2535.994629' z='667.065735'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.130300</sample>
+             <sample>2.113107</sample>
+             <sample>2.113107</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>24</sample>
+             <sample>24</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='785' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.449646' y='2526.593506' z='570.583862'/>
+             <point x='638.543884' y='2548.865234' z='592.000732'/>
+             <point x='686.634949' y='2575.255615' z='613.870911'/>
+             <point x='733.329956' y='2604.515381' z='635.106262'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.685654</sample>
+             <sample>2.602856</sample>
+             <sample>2.455016</sample>
+             <sample>2.455016</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>22</sample>
+             <sample>24</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='855' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.450195' y='2560.278564' z='570.572021'/>
+             <point x='612.702637' y='2580.473145' z='613.499512'/>
+             <point x='636.271851' y='2606.271973' z='661.106506'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.405328</sample>
+             <sample>2.304792</sample>
+             <sample>2.304792</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>23</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      <root ID='856' label='root' po:accession='PO:0009005'>  
+        <geometry>  
+          <polyline>  
+             <point x='591.450745' y='2593.963623' z='570.560730'/>
+             <point x='633.154846' y='2612.065674' z='584.172485'/>
+             <point x='683.933044' y='2637.252930' z='600.745972'/>
+          </polyline>  
+        </geometry>  
+        <functions>  
+          <function name='diameter' domain='polyline'>  
+             <sample>2.133415</sample>
+             <sample>2.114023</sample>
+             <sample>2.114023</sample>
+          </function>  
+          <function name='age' domain='polyline'>  
+             <sample>23</sample>
+             <sample>25</sample>
+             <sample>25</sample>
+          </function>  
+        </functions>  
+      </root>  
+      </root>  
+    </plant>  
+  </scene>
+</rsml>
