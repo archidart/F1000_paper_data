@@ -4,6 +4,8 @@
 
 ##########################################################################################
 #To run the code properly, the latest version of archiDART must be installed (version 3.0)
+#The following code can be used to install the version of archiDART used for this paper:
+#devtools::install_github("archidart/archidart")
 #Set your working directory
 #Set the paths to RSML files
 #and run the code! :-)
